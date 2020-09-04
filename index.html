@@ -9,7 +9,7 @@
   <!-- MDB icon -->
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  
   <!-- Google Fonts Roboto -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
@@ -20,59 +20,14 @@
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 </head>
 
 <body>
 
   <!-- Start your project here-->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container cust-container">
-      <a class="navbar-brand" href="#"><img src="img/Ankit.png" width="150" alt=""
-          style="padding-top: 20px; padding-bottom: 20px;"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active ml-auto">
-            <a class="nav-link " href="#">Work<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link" href="#">Timeline</a>
-          </li>
-          <li class="nav-item ml-auto">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-
-  <div class="container cust-container maintainer" style="width: 100%; height: 80%;">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="hello-text">Hello! fellow <span style="color: #4d1696;">human.</span></div>
-        <div class="glad-text">Glad that you landed here!</div>
-        <div class="divider-line"></div>
-        <div class="intro">I'm Ankit Kumar, an undergraduate Information Science and Engineering student. I spend time
-          understanding and building
-          secure and sclable systems.
-          I love to explore systems, web, software engineering and virtualization, and contributing to academic research
-          in the same.
-        </div>
-        <button class="btn res-btn" type="button"><i class="fa fa-file" aria-hidden="true"></i>&nbsp;&nbsp; Resume</button>
-      </div>
-      <div class="col-md-6">
-        <img src="img/homeimg.svg" width="100%" style="margin-top: 70px;" alt="">
-      </div>
-    </div>
-
-  </div>
+  
 
   <!-- End your project here-->
 
@@ -85,7 +40,11 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
-  <script type="text/javascript"></script>
+  <script src="https://kit.fontawesome.com/17e9d8f27f.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+  <script type="text/javascript">
+    new GitHubCalendar(".calendar", "unkitkr", {global_stat : false} );
+  </script>
 
 </body>
 
